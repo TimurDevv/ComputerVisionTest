@@ -1,10 +1,13 @@
-# ComputerVisionTest
+#Здесь будут описаны работы по техническому описанию
+
+
+## ComputerVision
 ```
 #VideoConverter - код для конвертации видео из mp4 to AVI
 #main.py - разбивает видео на каждый 15 фрейм, вырезает фрагмент с ближним столом, а так же ресайзит изображение на 116*116px
 #для конвертации видео нужен фаил FFMPEG git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
 ```
-#необхоодимые библиотеки:
+###необхоодимые библиотеки:
 ```
 #pip install notebook
 #pip install opencv-python
@@ -13,3 +16,16 @@
 #pip install matplotlib
 #pip install tensorflow
 ```
+
+## TextureAI(мое небольшое приложение)
+Для установки и запуска, необходимо скачать репозиторий по сылке
+```
+link: https://github.com/TimurMutallapov/TextureAI
+```
+Дальее зайдите в скачанный репозиторий, выполните несколько комманд для запуска
+
+```
+- docker-compose build
+- docker-compose up
+```
+
